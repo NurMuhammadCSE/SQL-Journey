@@ -171,3 +171,4 @@ SELECT * from view1;
 SELECT roll, name, marks from students;
 
 SELECT * FROM view1;
+
