@@ -1,6 +1,5 @@
 -- Database Related Queries
 CREATE DATABASE house;
-
 DROP DATABASE house;
 -- USE house;
 -- CREATE DATABASE IF NOT EXISTS house;
@@ -11,7 +10,6 @@ DROP DATABASE house;
 -- SHOW TABLES;
 
 -- TABLE Related Queries
-
 CREATE TABLE rooms (
     id INT PRIMARY KEY,
     name VARCHAR(50),
@@ -186,7 +184,6 @@ HAVING
 -- GROUP BY column
 -- HAVING condition
 -- ORDER BY column (ASC || DESC)
-
 UPDATE shop SET location = 'Dhaka' WHERE location = 'New York';
 
 UPDATE shop set product = 'Lichi' WHERE product = 'Apple';
